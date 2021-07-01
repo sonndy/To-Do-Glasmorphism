@@ -247,7 +247,7 @@ span .trans {
 
     .container {
         min-width: (600px, 1200px);
-        justify-content: ;
+        /* justify-content: ; */
     }
 
 }
