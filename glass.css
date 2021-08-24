@@ -30,9 +30,9 @@ body {
     /* position: relative; */
     margin: auto;
     text-align: center;
-    /* padding: 10px; */
-    padding-top: 5px;
-    font-size: 32px;
+    padding: 15px;
+    /* padding-top: 5px; */
+    font-size: 28px;
     border-radius: 15px;
 
     background: rgba( 255, 255, 255, 0.25 );
@@ -228,6 +228,20 @@ span .trans {
     opacity: 0;
 }
 
+.error-message {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
 
 @media screen and (max-width:850px) {
   
