@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         let sepClass = "notrans"
 
         if(d.getSeconds()%2 === 1) sepClass = "trans";
-        var sep = `<span class= "${sepClass}"> : </span>`;
+        var sep = `<span class= "${sepClass}">:</span>`;
 
         let newDate = date.format(d, "MMM D Y")
 
